@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="titulo">To live is to fight, to fight is to live</h1>
+    <table class="tabla">
+    <thead>
+            <tr>
+                <th colspan="4">Street Fighter</th>
+            </tr>
+        </thead>
+        
+        <tr>
+            <td>
+                Ken
+                <img src="img/ken.png" alt="">
+            </td>
+            <td>
+                Chun Li
+                <img src="img/ChunLi.png" alt="">
+            </td>
+            <td>
+                Zangief
+                <img src="img/Zangief.png" alt="">
+            </td>
+            <td>
+                Dhalsim
+                <img src="img/Dhalsim.png" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Ryu
+                <img src="img/Ryu.png" alt="">
+            </td>
+            <td>
+                E Honda
+                <img src="img/EHonda.png" alt="">
+            </td>
+            <td>
+                Blanka
+                <img src="img/Blanka.png" alt="">
+            </td>
+            <td>
+                Guille
+                <img src="img/Guille.png" alt="">
+            </td>
+        </tr>  
+        <tr>
+            <td>
+                T Hawk
+                <img src="img/THawk.png" alt="">
+            </td>
+            <td>
+                Feilong
+                <img src="img/Feilong.png" alt="">
+            </td>
+            <td>
+                Dee Jay
+                <img src="img/DeeJay.png" alt="">
+            </td>
+            <td>
+                Cammy
+                <img src="img/Cammy.png" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Balrog
+                <img src="img/Balrog.png" alt="">
+            </td>
+            <td>
+                Vega
+                <img src="img/Vega.png" alt="">
+            </td>
+            <td>
+                Sagat
+                <img src="img/Sagat.png" alt="">
+            </td>
+            <td>
+                M Bison
+                <img src="img/MBison.png" alt="">
+            </td>
+        </tr>   
+    </table>
+    <h2 class="titulo-form">Formulario de Inscripción para jugar a Street Fighter</h2>
+    <form class="formulario">
+      <fieldset class="form-input">
+        <legend>Datos Personales</legend>
+        
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
+        
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" name="apellidos" placeholder="Ingresa tus apellidos" required>
+        
+        <label for="nick">Nick:</label>
+        <input type="text" id="nick" name="nick" placeholder="Ingresa tu nick" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Ingresa tu email" required>
+      </fieldset>
+  
+      <fieldset class="form-input">
+        <legend>Dirección Postal</legend>
+        
+        <label for="calle">Calle:</label>
+        <input type="text" id="calle" name="calle" placeholder="Ingresa la calle" required>
+        
+        <label for="numero">Número:</label>
+        <input type="text" id="numero" name="numero" placeholder="Ingresa el número" required>
+        
+        <label for="ciudad">Ciudad:</label>
+        <input type="text" id="ciudad" name="ciudad" placeholder="Ingresa la ciudad" required>
+        
+        <label for="codigo_postal">Código Postal:</label>
+        <input type="text" id="codigo_postal" name="codigo_postal" placeholder="Ingresa el código postal" required>
+        
+        <label for="pais">País:</label>
+        <input type="text" id="pais" name="pais" placeholder="Ingresa el país" required>
+      </fieldset>
+  
+      <fieldset class="sexo-usuario">
+        <legend>Sexo Usuario</legend>
+        <label>
+          <input type="radio" name="sexo" value="hombre" required> Hombre
+        </label>
+        <label>
+          <input type="radio" name="sexo" value="mujer"> Mujer
+        </label>
+      </fieldset>
+  
+      <fieldset class="form-input">
+        <legend>Fecha de Nacimiento</legend>
+        <label for="fecha_nacimiento">Fecha:</label>
+        <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+      </fieldset>
+  
+      <fieldset class="form-input">
+        <legend>Selección de Personaje</legend>
+        <label for="personaje">Elige tu personaje:</label>
+        <select id="personaje" name="personaje" required>
+          <option value="">Selecciona un personaje</option>
+          <option value="ken">Ken</option>
+          <option value="Chun li">Chun li</option>
+          <option value="Zangief">Zangief</option>
+          <option value="Dhalsin">Dhalsin</option>
+          <option value="Ryu">Ryu</option>
+          <option value="E Honda">E Honda</option>
+          <option value="Blanka">Blanka</option>
+          <option value="Guille">Guille</option>
+          <option value="T Hawk">T Hawk</option>
+          <option value="Feilong">Feilong</option>
+          <option value="Dee Jan">Dee Jan</option>
+          <option value="Cammy">Cammy</option>
+          <option value="Balrog">Balrog</option>
+          <option value="Vega">Vega</option>
+          <option value="Sagat">Sagat</option>
+          <option value="M Bison">M Bison</option>
+        </select>
+      </fieldset>
+  
+      <fieldset>
+        <legend>Comentarios</legend>
+        <label for="comentarios">Escribe tus comentarios:</label>
+        <textarea id="comentarios" name="comentarios" placeholder="Escribe aquí tus comentarios..." rows="5"></textarea>
+      </fieldset>
+  
+      <div class="botones">
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+      </div>
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'Street';
+    src: url(street.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background-image: url(img/fondo2.jpg);
+}
+.titulo{
+    font-family: 'Street', sans-serif;
+    color: crimson;
+    font-size: 46px;
+    text-align: center;
+}
+.tabla {
+    width: 600px;
+    height: 800px;
+    border: 10px outset rgb(237, 175, 5);
+    border-radius: 10px;
+    background-color: black;
+    margin: auto;
+    background-size: cover;
+    color: whitesmoke;
+    font-size: 40px;
+    text-align: center;
+}
+tr, td {
+    width: 40px;
+    height: 45px;
+    font-family: 'Street', sans-serif;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: darkorange;
+    text-align: center;
+    vertical-align: middle;
+}
+
+thead tr th{
+    font-family: 'Street', sans-serif;
+    background-image: url(img/fondocabecera.jpg);
+    background-size: cover;
+    background-position: center;
+    color: whitesmoke;
+    font-size: 40px;
+    opacity: 0.5;
+}
+
+  /* Estilos del formulario */
+.titulo-form {
+    font-family: 'Street', sans-serif; 
+    font-size: 28px;
+    color: crimson;
+    text-align: center;
+}
+  
+.formulario {
+    margin: auto;
+    width: 600px;
+    height: auto;
+    border: 10px outset rgb(237, 175, 5);
+    background-color: black;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.sexo-usuario{
+    color: white;
+}
+  
+fieldset {
+    border: 2px solid rgb(237, 175, 5);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+  
+legend {
+    font-family: 'Street', sans-serif; 
+    font-size: 14px;
+    color: rgb(237, 175, 5);
+    padding: 0 10px;
+}
+  
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+}
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 1px solid rgb(237, 175, 5);
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+  
+textarea {
+    resize: vertical; 
+    min-height: 100px; 
+}
+  
+input[type="radio"] {
+    margin-right: 10px;
+}
+  
+
+.botones {
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+    margin-top: 20px;
+}
+  
+button {
+    width: 200px;
+    height: 50px;
+    border: 1px solid crimson;
+    background-color: crimson;
+    color: white;
+    font-family: 'Street', sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+  
+button:hover {
+    background-color: darkred;
+    border-color: darkred;
+}
