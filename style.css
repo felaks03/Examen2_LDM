@@ -6,6 +6,9 @@
 }
 body{
     background-image: url(img/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .titulo{
     font-family: 'Street', sans-serif;
